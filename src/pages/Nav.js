@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { Link, withRouter } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { Box } from '@material-ui/core';
-import { BORDER_RADIUS, SECONDARY_COLOR } from 'config';
+import { BORDER_RADIUS, SECONDARY_COLOR } from '../config';
 
 const useStyles = makeStyles(theme => ({
   container: {},

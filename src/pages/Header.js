@@ -2,8 +2,8 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
 import { AppBar, Typography, Toolbar, Button, Box } from '@material-ui/core';
-import { APP_TITLE } from 'config';
-import { useWallet } from 'contexts/wallet';
+import { APP_TITLE } from '../config';
+import { useWallet } from '../contexts/wallet';
 
 const useStyles = makeStyles(theme => ({
   container: {

@@ -1,5 +1,5 @@
 import { createMuiTheme } from '@material-ui/core/styles';
-import { BORDER_RADIUS, SECONDARY_COLOR } from 'config';
+import { BORDER_RADIUS, SECONDARY_COLOR } from '../config';
 
 export default createMuiTheme({
   typography: {
