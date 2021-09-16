@@ -1,13 +1,13 @@
 import React from 'react';
 import { ethers } from 'ethers';
 import Onboard from '@gnosis.pm/safe-apps-onboard';
-import { CACHE_WALLET_KEY, INFURA_ID } from 'config';
-import cache from 'utils/cache';
-import NETWORKS from 'networks.json';
-import REWARD_ESCROW_V2_ABI from 'abis/RewardEscrowV2.json';
-import ISSUER_ABI from 'abis/Issuer.json';
-import SYNTHETIX_BRIDGE_TO_OPTIMISM_ABI from 'abis/Synthetix.json';
-import ERC20_ABI from 'abis/ERC20.json';
+import { CACHE_WALLET_KEY, INFURA_ID } from '../config';
+import cache from '../utils/cache';
+import NETWORKS from '../networks.json';
+import REWARD_ESCROW_V2_ABI from '../abis/RewardEscrowV2.json';
+import ISSUER_ABI from '../abis/Issuer.json';
+import SYNTHETIX_BRIDGE_TO_OPTIMISM_ABI from '../abis/Synthetix.json';
+import ERC20_ABI from '../abis/ERC20.json';
 
 const DEFAULT_NETWORK_ID = 1;
 

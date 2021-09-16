@@ -8,9 +8,9 @@ import {
 } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { Box, Paper } from '@material-ui/core';
-import { ROUTER_BASE_NAME } from 'config';
-import { useWallet } from 'contexts/wallet';
-import Loader from 'components/Loader';
+import { ROUTER_BASE_NAME } from '../config';
+import { useWallet } from '../contexts/wallet';
+import Loader from '../components/Loader';
 import Header from './Header';
 import Nav from './Nav';
 import Nominate from './Nominate';

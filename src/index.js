@@ -9,13 +9,13 @@ import {
 import { CssBaseline } from '@material-ui/core';
 import { SnackbarProvider } from 'notistack';
 
-import muiTheme from 'utils/theme';
-import { WalletProvider } from 'contexts/wallet';
-import { NotificationsProvider } from 'contexts/notifications';
-import Notification from 'components/Notification';
+import muiTheme from './utils/theme';
+import { WalletProvider } from './contexts/wallet';
+import { NotificationsProvider } from './contexts/notifications';
+import Notification from './components/Notification';
 import * as serviceWorker from './serviceWorker';
 
-import App from 'pages/App';
+import App from './pages/App';
 
 const useStyles = makeStyles(theme => ({
   snackbar: {

@@ -3,9 +3,9 @@ import clsx from 'clsx';
 import * as ethers from 'ethers';
 import { makeStyles } from '@material-ui/core/styles';
 import { Box, Button, TextField } from '@material-ui/core';
-import { useWallet } from 'contexts/wallet';
-import { useNotifications } from 'contexts/notifications';
-import { SUCCESS_COLOR, DANGER_COLOR } from 'config';
+import { useWallet } from '../contexts/wallet';
+import { useNotifications } from '../contexts/notifications';
+import { SUCCESS_COLOR, DANGER_COLOR } from '../config';
 
 const useStyles = makeStyles(theme => ({
   error: {
